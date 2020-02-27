@@ -1,20 +1,41 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import '../styles/style.css';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div class="siteWrapper">
+      <div class="siteInnerWrapper">
+        <main>
+          <div class="contactCardWrap">
+            <div class="contactCard">
+              <a href="https://www.meetup.com/Dundee-JavaScript-Meetup/events/267930154/" target="_blank" rel="noreferrer" class="logo">
+                <div class="imageWrap">
+                  <img src="https://www.dundeejs.co.uk/wp-content/themes/chop-child/images/logo.png" alt="Dundee JS"/>
+                </div>
+              </a>
+            </div>
+            <div class="contactDetails">
+              <div class="meetupLink">
+                <a href="https://www.meetup.com/Dundee-JavaScript-Meetup/events/267930154/" target="_blank" rel="noreferrer">
+                  <div class="imageWrap">
+                    <img src="https://www.dundeejs.co.uk/wp-content/themes/chop-child/images/meetup_logo.svg" alt="Dundee JS on Meetup"/>
+                  </div>
+                </a>
+              </div>
+              <div class="twitterHandle">
+                <a href="https://twitter.com/DundeeJs" target="_blank" rel="noreferrer">
+                  @dundeejs
+                </a>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 

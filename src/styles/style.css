@@ -1,0 +1,22 @@
+.contactCardWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8em;
+}
+
+.imageWrap {
+    width: 14em;
+}
+
+.twitterHandle {
+    font-size: 2em;
+    text-align: center;
+}
+
+.twitterHandle a {
+    text-decoration: none;
+    color: #323232;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
