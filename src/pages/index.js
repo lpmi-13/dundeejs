@@ -14,6 +14,7 @@ const IndexPage = () => (
           <div className="contactCardWrap">
             <div className="contactCard">
               <a
+                aria-label="meetup link for dundee JS"
                 href="https://www.meetup.com/Dundee-JavaScript-Meetup/events/267930154/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -27,6 +28,7 @@ const IndexPage = () => (
             <div className="contactDetails">
               <div className="meetupLink">
                 <a
+                  aria-label="meetup link for dundee JS"
                   href="https://www.meetup.com/Dundee-JavaScript-Meetup/events/267930154/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -41,6 +43,7 @@ const IndexPage = () => (
               </div>
               <div className="twitterHandle">
                 <a
+                  aria-label="twitter link for dundee JS"
                   href="https://twitter.com/DundeeJs"
                   target="_blank"
                   rel="noopener noreferrer"
