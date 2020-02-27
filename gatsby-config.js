@@ -19,11 +19,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Dundee JS`,
-        short_name: `dundeejs`,
+        short_name: `Dundee JS`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
+        scope: '/',
+        background_color: `#000`,
+        theme_color: `#F7DF1E`,
+        display: `standalone`,
         icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
