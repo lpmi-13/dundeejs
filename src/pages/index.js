@@ -7,35 +7,37 @@ import '../styles/style.css';
 
 const IndexPage = () => (
   <Layout>
-    <div class="siteWrapper">
-      <div class="siteInnerWrapper">
-        <main>
-          <div class="contactCardWrap">
-            <div class="contactCard">
-              <a href="https://www.meetup.com/Dundee-JavaScript-Meetup/events/267930154/" target="_blank" rel="noreferrer" class="logo">
-                <div class="imageWrap">
-                  <img src="https://www.dundeejs.co.uk/wp-content/themes/chop-child/images/logo.png" alt="Dundee JS"/>
-                </div>
-              </a>
-            </div>
-            <div class="contactDetails">
-              <div class="meetupLink">
-                <a href="https://www.meetup.com/Dundee-JavaScript-Meetup/events/267930154/" target="_blank" rel="noreferrer">
-                  <div class="imageWrap">
-                    <img src="https://www.dundeejs.co.uk/wp-content/themes/chop-child/images/meetup_logo.svg" alt="Dundee JS on Meetup"/>
+    <SEO title="Home" />
+      <div className="siteWrapper">
+        <div className="siteInnerWrapper">
+          <main>
+            <div className="contactCardWrap">
+              <div className="contactCard">
+                <a href="https://www.meetup.com/Dundee-JavaScript-Meetup/events/267930154/" target="_blank" rel="noopener noreferrer" className="logo">
+                  <div className="imageWrap">
+                    {/* <img src="https://www.dundeejs.co.uk/wp-content/themes/chop-child/images/logo.png" alt="Dundee JS"/> */}
+                    <Image />
                   </div>
                 </a>
               </div>
-              <div class="twitterHandle">
-                <a href="https://twitter.com/DundeeJs" target="_blank" rel="noreferrer">
-                  @dundeejs
-                </a>
+              <div className="contactDetails">
+                <div className="meetupLink">
+                  <a href="https://www.meetup.com/Dundee-JavaScript-Meetup/events/267930154/" target="_blank" rel="noopener noreferrer">
+                    <div className="imageWrap">
+                      <img src="https://www.dundeejs.co.uk/wp-content/themes/chop-child/images/meetup_logo.svg" alt="Dundee JS on Meetup"/>
+                    </div>
+                  </a>
+                </div>
+                <div className="twitterHandle">
+                  <a href="https://twitter.com/DundeeJs" target="_blank" rel="noopener noreferrer">
+                    @dundeejs
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-        </main>
+          </main>
+        </div>
       </div>
-    </div>
   </Layout>
 )
 
